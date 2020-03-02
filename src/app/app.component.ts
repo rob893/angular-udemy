@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Bob';
+    public openSidenav: boolean = false;
+    public name = 'Bob';
 }

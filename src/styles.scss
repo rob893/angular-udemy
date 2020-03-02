@@ -36,10 +36,11 @@ $angular-udemy-theme: mat-dark-theme($angular-udemy-primary, $angular-udemy-acce
     color: mat-color($angular-udemy-accent) !important;
 }
 
-html, body, app-root, .app-frame {
-    overflow: hidden;
-    margin: 0;
+html, body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     height: 100%;
-    box-sizing: border-box;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body { 
+    margin: 0;
+}
