@@ -19,6 +19,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { StopTrainingComponent } from './training/current-training/stop-training.component';
 import { AuthService } from './auth/auth.service';
+import { TrainingService } from './training/training.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { AuthService } from './auth/auth.service';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
-      AuthService
+      AuthService,
+      TrainingService
   ],
   bootstrap: [AppComponent],
   entryComponents: [StopTrainingComponent]
