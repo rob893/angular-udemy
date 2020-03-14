@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-fitness-tracker-a694d": {
+      "hosting": {
+        "angular-udemy": [
+          "ng-fitness-tracker-a694d"
+        ]
+      }
+    }
+  }
+}
